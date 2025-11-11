@@ -1,0 +1,105 @@
+Version Control 
+
+Create a "repository" (project) with a git hosting tool (like Bitbucket)
+Copy (or clone) the repository to your local machine
+Add a file to your local repo and "commit" (save) the changes
+"Push" your changes to your main branch
+Make a change to your file with a git hosting tool and commit
+"Pull" the changes to your local machine
+Create a "branch" (version), make a change, commit the change
+Open a "pull request" (propose changes to the main branch)
+"Merge" your branch to the main branch
+
+https://www.w3schools.com/git/default.asp
+https://git-scm.com/downloads
+https://git-scm.com/book/en/v2
+
+Intro and background
+Git is a version control system. It was created by Linus Torvalds in 2005 and has been maintained by Junio Hamano
+
+Git is a version control system
+Check for file modifications
+Git helps you track of code changes
+Git is used to collaborate on code
+
+
+Header - Courses, aboutus, Sign in, resgister  Central remote repo - master/main
+QA - Pc  - logos  12am  Eclipse  db_branch_qa
+BA - Mac - LA           IntelliJ ayo_branch_ba
+PM  -Pc  - london
+SC  -Mac - Sydney
+
+Purpose
+Manage projects with Git Repositories - files system is saved --Local    (server) remote/source
+Clone a project to work on a local copy
+Control and track changes with Staging and Committing
+Branch and Merge to allow for work on different parts and versions of a project
+Pull the latest version of the project to a local copy
+Push local updates to the main project
+
+How it works
+Initialize Git on a folder, making it a Repository
+Git now creates a hidden folder to keep track of changes in that folder
+When a file is changed, added or deleted, it is considered modified
+You select the modified files you want to Stage
+The Staged files are Committed, which prompts Git to store a permanent snapshot of the files
+Git allows you to see the full history of every commit.
+You can revert back to any previous commit.
+Git does not store a separate copy of every file in every commit, but keeps track
+ of changes made in each commit!
+ 
+GIT - Use case
+Over 70% of developers use Git!
+Developers can work together from anywhere in the world.
+Developers can see the full history of the project.
+Developers can revert to earlier versions of a project.
+
+Download and Installation
+check if install 
+open cmd or terminal and type git --version
+https://git-scm.com/downloads
+
+
+
+Operation Systems
+Windows
+Mac
+Linus
+
+GIT - IDE other apps
+Visual Studio
+Visual Studio Code
+IntelliJ
+Eclipse
+
+GIT - Remote Repository
+Azure Repo
+Bitbucket
+GitHub assigment
+Gitlab
+
+Git SetUp
+
+Configuration
+name: git config --global user.name "johnsmith"
+email: git config --global user.email "training@gmail.com"
+
+Folder
+mkdir  myproject  -makes new directory/folder
+cd myproject      -changes the current working directory
+
+Initialise Git 
+git init          -getting local repository ready to be used as git
+
+Modify
+git diff -diff of what is changed but not staged
+git add .
+git commit -m <message>
+git push to origin
+git helps
+git pull
+git branch <first branch>
+git branch         -list of branches
+git switch/checkout <first branch> -switch to branch from main
+
+
